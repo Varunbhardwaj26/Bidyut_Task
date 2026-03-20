@@ -1,0 +1,80 @@
+.career {
+  padding-top: 70px;
+}
+
+.career-hero {
+  padding: 6rem 1.5rem 4rem;
+  text-align: center;
+  background: transparent;
+  background-color: #060606;
+}
+
+.page-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  display: inline-block;
+  background: linear-gradient(135deg, #45d5ee 20%, #1174cb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.page-subtitle {
+  font-size: 1.15rem;
+  color: #fdfafa;
+  margin: 0 auto;
+}
+
+.left {
+  background: linear-gradient(135deg, #6fb1ff 0%, #8fd1ff 60%, #a1d0fa 100%);
+  color: #042a4f;
+  height: 100%;
+}
+
+.right {
+  background: linear-gradient(180deg, #ffffff 0%, #eaf3ff 100%);
+  color: #042a4f;
+}
+
+.form-control,
+.form-select {
+  border-radius: 8px;
+  border: 1px solid #d0d8e6;
+}
+
+@media (max-width: 767.98px) {
+  .career{
+    padding-top: 60px;
+  }
+  .page-title {
+    font-size: 2.4rem;
+  }
+  .career-hero {
+    padding: 3.5rem 1rem 2rem;
+  }
+}
+
+.required {
+  color: red;
+  font-weight: bold;
+}
+
+button.btn-outline-primary {
+  border: 2px solid #5270f8;
+  border-radius: 8px;
+  padding: 0.5rem 1.5rem;
+  font-weight: 600;
+}
+
+.icon-img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.table-data{
+  font-size: 16px;
+  text-align: left;
+}
